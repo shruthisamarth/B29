@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Title is matching]]>
+      <![CDATA[Element is displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-07T03:12:32Z" name="Default suite" finished-at="2022-03-07T03:12:49Z" duration-ms="17118">
+  <suite started-at="2022-03-07T03:56:14Z" name="Default suite" finished-at="2022-03-07T03:56:34Z" duration-ms="20457">
     <groups>
     </groups>
-    <test started-at="2022-03-07T03:12:32Z" name="Default test" finished-at="2022-03-07T03:12:49Z" duration-ms="17118">
-      <class name="script.Test1">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:script.Test1@77a7cf58]" started-at="2022-03-07T03:12:32Z" name="openApp" finished-at="2022-03-07T03:12:44Z" duration-ms="12237" status="PASS">
+    <test started-at="2022-03-07T03:56:14Z" name="Default test" finished-at="2022-03-07T03:56:34Z" duration-ms="20457">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.ValidLogin@666b83a4]" started-at="2022-03-07T03:56:14Z" name="openApp" finished-at="2022-03-07T03:56:26Z" duration-ms="12376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testA()[pri:0, instance:script.Test1@77a7cf58]" started-at="2022-03-07T03:12:44Z" name="testA" finished-at="2022-03-07T03:12:49Z" duration-ms="4650" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@666b83a4]" started-at="2022-03-07T03:56:26Z" name="testValidLogin" finished-at="2022-03-07T03:56:34Z" duration-ms="7690" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Title is matching]]>
+              <![CDATA[Element is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Test1@77a7cf58]" started-at="2022-03-07T03:12:49Z" name="closeApp" finished-at="2022-03-07T03:12:49Z" duration-ms="185" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.ValidLogin@666b83a4]" started-at="2022-03-07T03:56:34Z" name="closeApp" finished-at="2022-03-07T03:56:34Z" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- script.Test1 -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
