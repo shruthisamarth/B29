@@ -18,7 +18,7 @@ public class Test1 extends BaseTest{
 		l.setPassword("manager");
 		l.clickLoginButton();
 		EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
-		boolean result = e.verifyTitle(wait,"Enter");
+		boolean result = e.verifyHomePageIsDisplayed(wait,"Enter");
 //		Assert.assertEquals(result, true);
 		Assert.assertTrue(result);
 	}
