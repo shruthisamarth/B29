@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="RegressionGC(failed)">
+    <parameter name="grid" value="no"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="remoteAddr" value="http://localhost:4444"/>
     <classes>
-      <class name="p29.Demo1">
+      <class name="script.InvalidLogin">
         <methods>
-          <include name="testA"/>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
         </methods>
-      </class> <!-- p29.Demo1 -->
+      </class> <!-- script.InvalidLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RegressionGC(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -10,7 +10,7 @@ import page.EnterTimeTrackPage;
 import page.LoginPage;
 
 public class Test1 extends BaseTest{
-	@Test
+	@Test(invocationCount = 0)
 	public void testA() {
 		
 		LoginPage l=new LoginPage(driver);
